@@ -9,7 +9,11 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  /* font-family: 'Fraunces', serif; */
+  background-color: var(--cream);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 :root {
@@ -20,9 +24,26 @@ body {
   --white: hsl(0, 0%, 100%);
 }
 
+::selection {
+  background-color: #f2ebe3;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p {

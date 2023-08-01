@@ -1,0 +1,125 @@
+.productCard {
+  display: flex;
+  background-color: var(--white);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 700px;
+  max-width: 600px;
+}
+
+.img {
+  background-image: url('./images/image-product-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 300px;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+  user-select: none;
+}
+
+.fullContent {
+  padding: 32px 30px;
+}
+
+.fullContent>span {
+  color: var(--dark-grayish-blue);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.title {
+  color: var(--very-dark-blue);
+  font-family: 'Fraunces', serif;
+  width: 190px;
+  font-size: 30px;
+  line-height: 1;
+  margin: 26px 0;
+  color: var(--very-dark-blue);
+}
+
+.description {
+  color: var(--dark-grayish-blue);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7;
+  width: fit-content;
+}
+
+div.price {
+  margin: 26px 0;
+  display: flex;
+  align-items: center;
+}
+
+span.price {
+  color: var(--dark-cyan);
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Fraunces', serif;
+}
+
+.oldPrice {
+  color: var(--dark-grayish-blue);
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.addToCart {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  width: 100%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .3s;
+  -webkit-transition: background-color .3s;
+  -moz-transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+}
+
+.addToCart:hover {
+  background-color: #1a4031;
+}
+
+.addToCart img {
+  width: 12px;
+}
+
+.addToCart span {
+  width: max-content;
+}
+
+
+
+
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
